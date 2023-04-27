@@ -12,7 +12,7 @@ def start(message):
 
 @bot.message_handler(commands=['info'])
 def info(message):
-    bot.send_message(message.chat.id, f'Это телеграмм бот, созданный для дистанционным управлением твоим пк.Бот сделан учеников яндекс лицея Пермяковым Артемием. Бот умеет:')
+    bot.send_message(message.chat.id, f'Это телеграмм бот, созданный для дистанционным управлением твоим пк.Бот сделан учеников яндекс лицея Пермяковым Артемием. Бот умеет:\nРаботать с файлами\nРаботать с консолью\nРабоать с приложениями\nРабоать с браузером')
 
 @bot.message_handler(commands=['inct'])
 def inct(message):
